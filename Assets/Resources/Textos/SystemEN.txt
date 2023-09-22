@@ -1,0 +1,79 @@
+Character name cannot be empty
+The character's name must be at least 3 letters
+You know
+You must choose an option to continue the battle
+Enter the name of your Character:
+Distribute skill points for your character:
+Your choice in order of importance:
+You must choose an option before continuing
+Location:
+You must create the Character
+The original name of the character is Sundusth, you can change it to your liking, but keep in mind that other stories in the Umbria universe could refer to this character and will be done in his original name
+Alcohol quickens your tongue
+During
+shifts
+Overcome
+Not surpassed
+you have lost
+Life points
+Your luck is
+  and the throw has given
+you have lost
+  life points
+Battle
+All points have been distributed
+You cannot reduce this Stat any further
+Remaining points
+You must distribute the points
+The attack is not yet loaded
+Choose an image for your character:
+Description:
+Cannot save at this time
+Language:
+Little
+Medium
+Big
+Inventory
+Text Size:
+Time:
+You must distribute the skill points
+Option still in development
+There are no saved games
+New Save
+View Tutorials
+Welcome to Umbria Tales: Quantum Realities, this is the panel to create the character, choose your name, image and Stats
+When you have created the character, scroll to the bottom and press Next to continue and start the adventure
+This is the main panel, this is where the story takes place, at the top left you have the menu.
+At the bottom center you have two buttons, the left one is the backpack where you will find the known places and characters, if you slide up you can continue the adventure.
+Here you will find a summary of your character, avatar, attributes, as well as total and remaining health, you will also find the power-ups that will increase your attributes or heal you.
+The active effects whether positive or negative, current location of the character and the playing time, at the bottom you can save the game.
+In this panel you will find interesting information about the characters and places that you have met during your adventure, click on them to get to know them in depth.
+With the button at the bottom you will switch between Characters and Places.
+Welcome to your first battle, sometimes you will have to face enemies, at the top you will find an image of your enemy, as well as information about it and the actions that are being carried out.
+In the lower part you will find elements that refer to you, your Boosts and healing, information about your Health, Strength, Defense and Luck as well as the actions you can take at each moment of the battle.
+Sometimes you will be presented with decisions in the story, in which you will have to decide what to do.
+The options will appear at the bottom of the screen, these decisions may not have weight, they may only affect the next movements or perhaps a weight in the story that you cannot imagine. What are you going to do?
+Unfortunately you chose the worst possible option, you died.
+Unfortunately you lost the confrontation, don't worry, this life is hard, think about your strategy and try again.
+Accept
+Change
+Cancel
+Effects:
+You receiveYou cannot have more Health boosters.
+You cannot have more Strength boosters.
+You cannot have more Defense boosters.
+You can't have more Luck boosters.
+You cannot have more Eloquence boosters.
+You currently have a team of this class:
+Do you want to change it for this one?
+ it has been reduced 
+ has increased 
+ points 
+You have reached the maximum power-ups.
+There are no more Health boosters left.
+There are no more Strength boosters left.
+There are no more Defense boosters left.
+There are no more Luck boosters left.
+There are no more Eloquence boosters left.
+You cannot use more power-ups.
+Complete health

@@ -1,0 +1,92 @@
+public void BotonesSaveLoad(bool save)
+    {
+        GetComponent<Principal>().PanelSaveLoad.transform.position = GetComponent<Principal>().PanelPrincipal.transform.position;
+        foreach (GameObject o in GameObject.FindGameObjectsWithTag("BotonesSaveLoad"))
+        {
+            Destroy(o);
+        }//Destruimos todos los botones que existan antes de crear los nuevos
+        LeerArchivo();
+        GameObject BotonSave = GameObject.Find("ButtonSavePadre");
+        int tamaño = 450;
+        if (/*(savedGames.Count == 0|| savedGames.Count == 1) &&*/ save)
+        {
+            Instantiate(BotonsSavePlus, GameObject.Find("ButtonSavePadre").transform.position, Quaternion.identity);
+            GameObject.Find("ButtonSavePlus(Clone)").name = "ButtonSavePlus";
+            GameObject.Find("ButtonSavePlus").transform.SetParent(GameObject.Find("PanelBotonesSaveLoad").transform);
+            GameObject.Find("ButtonSavePlus").GetComponent<RectTransform>().sizeDelta = BotonSave.GetComponent<RectTransform>().sizeDelta;
+            GameObject.Find("ButtonSavePlus").GetComponent<RectTransform>().transform.position = new Vector2(BotonSave.GetComponent<RectTransform>().transform.position.x,
+                                                                                                         BotonSave.GetComponent<RectTransform>().transform.position.y - tamaño);
+            GameObject.Find("ButtonSavePlus").GetComponent<Button>().onClick.AddListener(delegate {Save(0, true); });
+        }//si al el archivo de guardado está vacío o es 1 (guardado rápido) y vamos a guardar, crea el boton para crear nueva partida guarada
+        else if ((savedGames.Count < 2) && !save)//si al el archivo de guardado está vacío y vamos cargar la partida, nos saltará un mensaje
+        {
+            GetComponent<Principal>().MensajeError(GetComponent<Config>().System[40],3);
+        }//Si intentamos cargar y no hay saves
+        else
+        {
+            GetComponent<Principal>().PanelSaveLoad.transform.position = GetComponent<Principal>().PanelPrincipal.transform.position;
+            for (int i = 1; i < savedGames.Count; i++)
+            {
+                 int numemoria = i;
+                Instantiate(BotonLoad, GameObject.Find("ButtonSavePadre").transform.position, Quaternion.identity);
+                GameObject.Find("ButtonSave(Clone)").transform.SetParent(GameObject.Find("PanelBotonesSaveLoad").transform);
+                GameObject.Find("ButtonSave(Clone)").name = "ButtonSave" + i;
+                GameObject.Find("BotonTrash").name = "BotonTrash" + i;
+                GameObject.Find("ButtonSave" + i).tag = "BotonesSaveLoad";
+                GameObject.Find("BotonTrash" + i).tag = "BotonesSaveLoad";
+                GameObject.Find("ButtonSave" + i).GetComponent<RectTransform>().sizeDelta = BotonSave.GetComponent<RectTransform>().sizeDelta;
+                GameObject.Find("ButtonSave" + i).GetComponent<RectTransform>().transform.position = new Vector2(BotonSave.GetComponent<RectTransform>().transform.position.x,
+                                                                                                                 BotonSave.GetComponent<RectTransform>().transform.position.y - tamaño);
+                GameObject.Find("ImageBotonSave").GetComponent<Image>().sprite = GetComponent<Config>().Avatares[savedGames[i].numAvatar];
+                GameObject.Find("ImageBotonSave").name += i;
+                GameObject.Find("NombreSave").GetComponent<TextMeshProUGUI>().text = savedGames[i].Nombre;
+                GameObject.Find("NombreSave").name += i;
+                GameObject.Find("UbicacionSave").GetComponent<TextMeshProUGUI>().text = savedGames[i].LugarActual;
+                GameObject.Find("UbicacionSave").name += i;
+                GameObject.Find("TiempoSave").GetComponent<TextMeshProUGUI>().text = savedGames[i].tiempo[2].ToString() + ":" + savedGames[i].tiempo[1].ToString() + ":" + (Math.Truncate(savedGames[i].tiempo[0]));
+                GameObject.Find("TiempoSave").name += i;
+                BotonSave = GameObject.Find("ButtonSave" + i);
+                tamaño = 250;
+                GameObject.Find("ButtonSave" + i).GetComponent<BotonesDetalles>().numeroMemoria = i;
+                if (save && i == savedGames.Count - 1 && savedGames.Count < 6)
+                {
+                    Instantiate(BotonsSavePlus, GameObject.Find("ButtonSave" + i).transform.position, Quaternion.identity);
+                    GameObject.Find("ButtonSavePlus(Clone)").transform.SetParent(GameObject.Find("PanelBotonesSaveLoad").transform);
+                    GameObject.Find("ButtonSavePlus(Clone)").GetComponent<RectTransform>().sizeDelta = BotonSave.GetComponent<RectTransform>().sizeDelta;
+                    GameObject.Find("ButtonSavePlus(Clone)").GetComponent<RectTransform>().transform.position = new Vector2(BotonSave.GetComponent<RectTransform>().transform.position.x,
+                                                                                                                 BotonSave.GetComponent<RectTransform>().transform.position.y - tamaño);
+                    GameObject.Find("ButtonSavePlus(Clone)").GetComponent<Button>().onClick.AddListener(delegate { Save(0, true); });
+                }//Si vamos a guardar creo el Boton para Save nuevo
+            }//creamos los botones, los instanciamos, los cambiamos de numbre, añadimos los datos y los colocamos correctamente
+            if (save)
+            {
+                GameObject.Find("PanelIntScrollSaveLoad").GetComponent<RectTransform>().sizeDelta = new Vector2(0, (((BotonSave.GetComponent<RectTransform>().sizeDelta.y + 50) * savedGames.Count - 1)
+                                                                                                                   - GameObject.Find("PanelScrollSL").GetComponent<RectTransform>().rect.height + 50)
+                                                                                                                   + BotonSave.GetComponent<RectTransform>().sizeDelta.y + 50);
+            }//Si vamos a guardar, hacemos un poco mas grande para que quepa el nuevo save
+            else            //sino pues hacemos el tamaño para los botones
+                GameObject.Find("PanelIntScrollSaveLoad").GetComponent<RectTransform>().sizeDelta = new Vector2(0, ((BotonSave.GetComponent<RectTransform>().sizeDelta.y + 50) * (savedGames.Count - 1))
+                                                                                                                   - GameObject.Find("PanelScrollSL").GetComponent<RectTransform>().rect.height + 50);
+            if (save)
+            {
+                for (int i = 1; i < savedGames.Count; i++)
+                {
+                    GameObject BTN = GameObject.Find("ButtonSave" + i);
+                    GameObject BTNTrsh = GameObject.Find("BotonTrash" + i);
+                    BTNTrsh.GetComponent<BotonesDetalles>().numeroMemoria = BTN.GetComponent<BotonesDetalles>().numeroMemoria;
+                    BTN.GetComponent<Button>().onClick.AddListener(delegate { Save(BTN.GetComponent<BotonesDetalles>().numeroMemoria, false); });
+                    BTNTrsh.GetComponent<Button>().onClick.AddListener(delegate { BorrarPartida(BTNTrsh.GetComponent<BotonesDetalles>().numeroMemoria, save); });
+                }
+            }  //si los botones son para guardar los mandamos a guardar a la funcion para ello
+            else
+            {
+                for (int i = 1; i < savedGames.Count; i++)
+                {
+                    GameObject BTN = GameObject.Find("ButtonSave" + i);
+                    GameObject BTNTrsh = GameObject.Find("BotonTrash" + i);
+                    BTN.GetComponent<Button>().onClick.AddListener(delegate { Load(BTN.GetComponent<BotonesDetalles>().numeroMemoria); });
+                    BTNTrsh.GetComponent<Button>().onClick.AddListener(delegate { BorrarPartida(BTN.GetComponent<BotonesDetalles>().numeroMemoria, save); });
+                }
+            }           //si son para cargar pues lo mismo
+        }//Genera los botones del del panel
+    }

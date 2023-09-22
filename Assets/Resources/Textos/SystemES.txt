@@ -1,0 +1,88 @@
+El nombre del personaje no puede estar vacío
+El nombre del personaje debe de tener al menos 3 letras
+Conoces a 
+Debes elegir una opción para continuar la batalla
+Introduce el nombre de tu Personaje:
+Distribuye los puntos de habilidad para tu personaje:
+Tu elección por orden de importancia: 
+Debes elegir una opción antes de continuar
+Ubicación: 
+Debes crear el Personaje
+El nombre original del personaje es Sundusth, puedes cambiarlo a tu gusto, pero ten en cuenta que en otras historias del universo Umbria se podría hacer referencia a este personaje y se hará en su nombre original
+El alcohol aviva tu lengua
+Durante
+turnos
+Superado
+No superado
+Has perdido
+Puntos de vida
+Tu suerte es 
+ y la tirada ha dado
+Has perdido
+ puntos de vida
+Batalla
+Todos los puntos han sido distribuidos
+No puedes reducir más este Stat
+Puntos restantes
+Debe distribuir los puntos
+El ataque aun no está cargado
+Elige una imágen para tu personaje:
+Descripción:
+No se puede guardar en este momento
+Idioma:
+Pequeño
+Mediano
+Grande
+Inventario
+Tamaño de Texto:
+Tiempo:
+Debes Repartir los puntos de habilidad
+Opción todavía en desarrollo
+No hay partidas guardadas
+Nuevo Save
+Visualizar Tutoriales
+Bienvenidos a Umbria Tales: Quantum Realities, este es el panel para crear el personaje, elije tu nombre, imágen y Stats
+Cuándo hayas creado al personaje, desliza la página hasta la parte inferior y pulsa Siguiente para continuar y empezar la aventura
+Este es el panel principal, aquí es donde transcurre la historia, en la parte superior izquieda tienes el menú.
+En la parte inferior central tienes dos botones, el izquierdo es la mochila donde encontraras los lugares y personajes conocidos, si deslizas hacía arriba podrás continuar la aventura.
+Aquí encontrarás un resumen de tu personaje, avatar, atributos, así como la salud total y restante, encontraráw también los potenciadores que aumentarán tus atributos o te sanarán.
+Los efectos activos ya sean positivos o negativos, ubicación actual del persnaje y el tiempo de juego, el la parte inferior podrás guardar la partida.
+En este panel encontraras información interesante sobre los personajes y lugares que hayas ido conociendo durante tu aventura, pulsa sobre ellos para conocerlos a fondo.
+Con el botón de la parte inferior cambiaras entre Personajes y Lugares.
+Bienvenido a tu primera batalla, en ocasiones tendrás que enfrentarte a enemigos,en la parte superior encontrarás una imágen de tu enemigo, así como información del mismo y de las acciones que se van realizando.
+En la perte inferior se enuentra elementos que se refieren a ti, tus Boosts y curaciones, información sobre tu Salud, Fuerza, Defensa y Suerte así como las acciones que puedes ralizar en cada momento de la batalla.
+En ocasiones se te plantearan decisiones en la historia, en la que tendrás que decidir qué hacer.
+Las opciones aparecerán en la parte inferior de la pantalla, estás decisiones puede que no tengan peso, puede que solo afecten a los próximos movimientos o quizás un peso en la historia que no llegas a imaginar ¿Que vas ha hacer??
+Por desgracia elegiste la peor opción posible, has muerto.
+Por desgracia perdiste el enfrentamiento, tranquilo, esta vida es dura, piensa tu estrategia y vuelve a intentarlo.
+Aceptar
+Cambiar
+Cancelar
+Efectos:
+Recibes 
+No puedes tener más potenciadores de Salud.
+No puedes tener más potenciadores de Fuerza.
+No puedes tener más potenciadores de Defensa.
+No puedes tener más potenciadores de Suerte.
+No puedes tener más potenciadores de Elocuencia.
+potenciadores de Salud.
+potenciadores de Fuerza.
+potenciadores de Defensa.
+potenciadores de Suerte.
+potenciadores de Elocuencia.
+Actualmente tienes un equipo de esta clase:
+¿Quieres cambiarlo por este?
+La afinidad con 
+ está por debajo de 3 y ahora te considera un enemigo
+ está por debajo de 5 y ahora puede que sea agresivo contigo
+ se ha reducido 
+ ha aumentado 
+ puntos
+Has llegado al máximo de potenciadores.
+No quedan más potenciadores de Salud.
+No quedan más potenciadores de Fuerza.
+No quedan más potenciadores de Defensa.
+No quedan más potenciadores de Suerte.
+No quedan más potenciadores de Elocuencia.
+No puedes usar mas potenciadores.
+Salud completa

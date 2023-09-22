@@ -1,0 +1,44 @@
+{"pnjs":[
+	{
+		"id":1, 
+		"name":"Hugh", 
+		"salud": 70,
+		"fuerza": 17,
+		"defensa": 11,
+		"suerte":7,
+		"edad":35,
+		"description":"Compañero y amigo fiel del dueño de El Oasis de Plata, grande casi como un armario, habría que estar loco o muy seguro de tus capacidades para enfrentarte a alguien como él.",
+		"afinidad": 7
+	},{
+		"id":2, 
+		"name":"Martin", 
+		"description":"Regenta El Oasis de Plata, persona alegre y muy cercana, cumple los requisitos para ser un buen tebernero.",
+		"edad":50,
+		"salud": 51,
+		"fuerza": 12,
+		"defensa": 8,
+		"suerte":7,
+		"afinidad": 10
+	},{
+		"id":3, 
+		"name":"Frost", 
+		"description":"Hombre misteriosos, te saco de El Oasis de Plata justo cuándo te iban a llevar a un destino que mejor no conocer.",
+		"edad":53,
+		"salud": 48,
+		"fuerza": 13,
+		"defensa": 9,
+		"suerte":10,
+		"afinidad": 6
+	},{
+		"id":4, 
+		"name":"Mihaela", 
+		"description":"Es tu enlace con lo que ahora es llamada la Guardia Unificada, están detrás de todo lo que te ha ocurrido y tipos como este es mejor tenerlo siempre de tu lado."
+	},{
+		"id":5, 
+		"name":"Él", 
+		"description":"Mueve los hilos de la ciudad de Umbria, un hombre al que todo el mundo teme y que debe tener todas las respuestas que necesitas."
+	},{
+		"id":6, 
+		"name":"Rorick", 
+		"description":"Es tu enlace con lo que ahora es llamada la Guardia Unificada, están detrás de todo lo que te ha ocurrido y tipos como este es mejor tenerlo siempre de tu lado."
+	}]}

@@ -1,0 +1,38 @@
+{"armament":[
+	{
+      "id": 9999,
+      "name": "",
+      "type" :"",
+      "mod": "",
+      "description":"Types - 0 - Cabeza\n         1 - Accesorios \n         2 - Cuerpo\n         3 - Arma\n         4 - Piernas\n         5 - Pies",
+      "stat": "",
+      "value": 0
+    },
+    {
+      "id": 1,
+      "type": 3,
+      "name": "Sharp Dagger",
+      "mod": "+",
+      "description":"Short dagger given to you by Frost, it's not much but it will be useful to defend yourself.",
+      "stat": "Fuerza",
+      "value": 2
+    },
+    {
+      "id": 2,
+      "type": 3,
+      "name": "Rusty Dagger",
+      "mod": "+",
+      "description":"Old and blunt-edged dagger, better than nothing at all, I guess.",
+      "stat": "Fuerza",
+      "value": 1
+    },
+    {
+        "id": 1,
+        "type": 1,
+        "mod": "",
+        "name": "Crimson Remembrance Pendant",
+        "description":"Pendant given to you by Mihaela some time ago, it contains a key inside.",
+        "stat": "",
+        "value": 0
+    }
+  ]}

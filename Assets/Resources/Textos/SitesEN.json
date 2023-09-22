@@ -1,0 +1,17 @@
+{"lugares":[
+    {
+      "id": 1,
+      "name": "?????",
+      "description": "Place where you woke up, dark and humid place with dark rock walls."
+    },
+    {
+      "id": 2,
+      "name": "Winery of Tavern",
+      "description": "Place where you woke up, dark and humid place with dark rock walls."
+    },
+    {
+      "id": 3,
+      "name": "El Oasis de Plata",
+      "description": "Underworld tavern, something smells bad in this place even though you don't really know what it is."
+    }
+  ]}

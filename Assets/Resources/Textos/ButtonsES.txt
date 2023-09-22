@@ -1,0 +1,33 @@
+Siguiente
+Volver
+Nueva Partida
+Cargar Partida
+Continuar
+Salir
+Salud:
+Fuerza:
+Defensa:
+Suerte:
+Elocuencia:
+Efecto Activo:
+Ubicación:
+Tiempo de Juego = 
+Personajes
+Lugares
+-------------Decisiones:
+Beber Cerveza
+Beber Frasco
+No Beber
+Rápido
+Sigilo
+Agacharte
+Bloquear
+Atacar
+Defender
+Táctica
+Ajustes
+Si
+No
+No Hacer Nada
+Presentarte
+Quien es Él

@@ -1,0 +1,38 @@
+{"pnjs":[
+	{
+		"id":1, 
+		"name":"Hugh", 
+		"afinidad": 7,
+		"salud": 70,
+		"fuerza": 14,
+		"defensa": 11,
+		"suerte":7,
+		"edad":35,
+		"description":"Mysterious man, big almost like a closet, you would have to be crazy or very sure of your abilities to face someone like him."
+	},{
+		"id":2, 
+		"name":"Martin", 
+		"description":"He runs El Oasis de Plata, a cheerful and very close person, he meets the requirements to be a good tavern keeper.",
+		"edad":50,
+		"salud": 51,
+		"fuerza": 12,
+		"defensa": 8,
+		"suerte":7,
+		"afinidad": 10
+	},{
+		"id":3, 
+		"name":"Frost", 
+		"description":"Mysterious man, I took you out of El Oasis de Plata just when they were going to take you to a destination you better not know."
+	},{
+		"id":4, 
+		"name":"Él", 
+		"description":"Pull the strings of the city of Umbria, a man everyone fears and who must have all the answers you need."
+	},{
+		"id":5, 
+		"name":"Rorick", 
+		"description":"He is your link with what is now called the Unified Guard, they are behind everything that has happened to you and guys like this are better to always have on your side."
+	},{
+		"id":6, 
+		"name":"Mihaela", 
+		"description":"Es tu enlace con lo que ahora es llamada la Guardia Unificada, están detrás de todo lo que te ha ocurrido y tipos como este es mejor tenerlo siempre de tu lado."
+	}]}

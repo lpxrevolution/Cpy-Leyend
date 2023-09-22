@@ -1,0 +1,38 @@
+{"armament":[
+	{
+      "id": 9999,
+      "name": "",
+      "type" :"",
+      "mod": "",
+      "description":"Types - 0 - Cabeza\n         1 - Accesorios \n         2 - Cuerpo\n         3 - Arma\n         4 - Piernas\n         5 - Pies",
+      "stat": "",
+      "value": 0
+    },
+    {
+      "id": 1,
+      "type": 3,
+      "name": "Daga Afilada",
+      "mod": "+",
+      "description":"Daga corta que te dio Frost, no es gran cosa pero servirá para defenderte",
+      "stat": "Fuerza",
+      "value": 2
+    },
+    {
+      "id": 2,
+      "type": 3,
+      "name": "Daga Oxidada",
+      "mod": "+",
+      "description":"Daga vieja y con filo destrozado, mejor que no llevar nada, supongo",
+      "stat": "Fuerza",
+      "value": 1
+    },
+    {
+        "id": 1,
+        "type": 1,
+        "mod": "",
+        "name": "Colgante Carmesí del Recuerdo",
+        "description":"Colgante que te entregó Mihaela tiempo atrás, contiene una llave en su interior.",
+        "stat": "",
+        "value": 0
+    }
+  ]}

@@ -1,0 +1,39 @@
+{"enemy":[
+    {
+      "id": 1,
+      "type": 1,
+      "name": "Pandillero",
+      "intro":"Pandillero se acerca con ganas de guerra",
+      "salud":45,
+      "fuerza" : 9,
+      "defensa" : 7,
+      "suerte" : 7,
+      "sucesionAtaques" : 11213,
+      "attacks": [{"id":1,"attack":"Ataque normal."},
+                 {"id":2,"attack":"Defensa."},
+                 {"id":3,"attack":"Navajazo."}]
+    },
+    {
+      "id": 2,
+      "type": 2,
+      "name": "Pandillero Entrenado",
+      "intro":"Pandillero Entrenado se acerca con ganas de guerra",
+      "salud":60,
+      "fuerza" : 11,
+      "defensa" : 8,
+      "suerte" : 6,
+      "sucesionAtaques" : 12313,
+      "attacks": [{"id":1,"attack":"El Pandillero realiza un ataque normal contra ti."},
+                 {"id":2,"attack":"El Pandillero se intenta defender de tus ataques."},
+                 {"id":3,"attack":"El Pandillero realiza un Navajazo contra ti."}]
+    },
+    {
+      "id": 3,
+      "type": 3,
+      "name": "Jede de la Banda",
+      "intro":"Pandillero se acerca con ganas de guerra",
+      "attacks": [{"id":1,"attack":"El Pandillero realiza un ataque normal contra ti."},
+                 {"id":2,"attack":"El Pandillero se intenta defender de tus ataques."},
+                 {"id":3,"attack":"El Pandillero realiza un Navajazo contra ti."}]
+    }
+  ]}

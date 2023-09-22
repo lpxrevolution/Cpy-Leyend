@@ -1,0 +1,15 @@
+{"lugares":[
+  {
+    "id": 1,
+    "name": "?????",
+    "description": "Lugar donde despertaste, lugar oscuro y con mucha humedad con paredes de roca oscura."
+  },{
+    "id": 2,
+    "name": "Bodega de la Taberna",
+    "description": "Lugar donde despertaste, lugar oscuro y con mucha humedad con paredes de roca oscura."
+  },{
+    "id": 3,
+    "name": "El Oasis de Plata",
+    "description": "Taberna de los bajos fondos, algo huele mal en este lugar aunque no sabes muy bien que es."
+  }
+]}

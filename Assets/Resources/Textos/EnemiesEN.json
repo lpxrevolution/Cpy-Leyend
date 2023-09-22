@@ -1,0 +1,29 @@
+{"enemy":[
+    {
+      "id": 1,
+      "type": 1,
+      "name": "Pandillero",
+      "intro":"Gang member approaches wanting war",
+      "attacks": [{"id":1,"attack":"The gang member performs a normal attack on you."},
+                 {"id":2,"attack":"The gang member tries to defend himself from his attacks."},
+                 {"id":3,"attack":"The gang member performs a Razorblade against you."}]
+    },
+    {
+      "id": 2,
+      "type": 2,
+      "name": "Pandillero Entrenado",
+      "intro":"Gang member approaches wanting war",
+      "attacks": [{"id":1,"attack":"The gang member performs a normal attack on you."},
+                  {"id":2,"attack":"The gang member tries to defend himself from his attacks."},
+                  {"id":3,"attack":"The gang member performs a Razorblade against you."}]
+    },
+    {
+      "id": 3,
+      "type": 3,
+      "name": "Jede de la Banda",
+      "intro":"Gang member approaches wanting war",
+      "attacks": [{"id":1,"attack":"The gang member performs a normal attack on you."},
+                  {"id":2,"attack":"The gang member tries to defend himself from his attacks."},
+                  {"id":3,"attack":"The gang member performs a Razorblade against you."}]
+    }
+  ]}

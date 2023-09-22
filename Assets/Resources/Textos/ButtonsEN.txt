@@ -1,0 +1,33 @@
+Next
+Back
+New Game
+Load Game
+Continue
+Exit
+Health Points:
+Strength:
+Defense:
+Luck:
+Eloquence:
+Active Effect:
+Location:
+Time of Game = 
+Characters
+Places
+-------------Decisiones:
+Drink Beer
+Drink Wine
+No Drink
+Fast
+Stealth
+Crouch
+Block
+Attack
+Defend
+Tactic
+Settings
+Yes
+No
+Do Nothing
+Introduce you
+Who is He.
